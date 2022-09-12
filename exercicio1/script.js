@@ -6,7 +6,7 @@ let coxinha = prompt("quer mais coxinha?").toUpperCase()
 let conta = 0
 
 while (coxinha === "S") {
-    coxinha = prompt("quer mais coxinha?").toUpperCase()
     conta += 2.5
+    coxinha = prompt("quer mais coxinha?").toUpperCase()
 }
 console.log("Total da conta: " + conta);
